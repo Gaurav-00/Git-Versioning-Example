@@ -5,5 +5,9 @@ public class Calculator {
         int x=10,y=2,c;
         c=x+y;
         System.out.println(c);
+        Sub su=new Sub();
+        int z;
+        z=su.Sub(x,y);
+        System.out.println(z);
     }
 }
