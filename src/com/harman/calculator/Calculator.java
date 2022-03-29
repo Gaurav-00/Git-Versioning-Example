@@ -9,5 +9,8 @@ public class Calculator {
         int z;
         z=su.Sub(x,y);
         System.out.println(z);
+        Mult mu=new Mult();
+        int t=mu.mult(x,y);
+        System.out.println(t);
     }
 }
